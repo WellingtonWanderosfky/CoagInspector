@@ -1,0 +1,10 @@
+ if(room==rm_menu)
+{
+	if(global.enterp==0)
+	{
+		if(keyboard_check(vk_enter)){
+			room_goto(rm_dificuldade);
+			instance_destroy(rm_menu);	
+		}
+	}
+}
